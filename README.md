@@ -43,11 +43,12 @@ Ce projet documente le développement, la compilation et l'utilisation d'une **D
    - **Type** : Dynamic Link Library (DLL)
    - **Nom** : `evildll`
 2. Remplacer le contenu de `dllmain.cpp` par celui de `evildll.cpp`.
-3. Propriétés du projet :
+3. Modifier la ligne 55 en ajoutant l'ip de server de destination ainsi que le port.
+4. Propriétés du projet :
    - **C/C++ > Général > Répertoires Include** : Ajouter le chemin du Windows SDK.
    - **C/C++ > En-têtes précompilés** : *Ne pas utiliser*.
-4. Configuration : `Release x64`.
-5. Générer la DLL.
+5. Configuration : `Release x64`.
+6. Générer la DLL.
 
 ---
 
